@@ -1,13 +1,17 @@
-import React from 'react'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import { Box } from '@mui/material'
-import {Navbar} from './components'
+import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Box } from '@mui/material';
+import { Navbar, Home, Properties } from './components';
 
 function App() {
   return (
     <BrowserRouter>
-      <Box sx={{backgroundColor: '#000'}}>
-        <Navbar/>
+      <Box sx={{ backgroundColor: '#000' }}>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/properties" element={<Properties />} />
+        </Routes>
       </Box>
     </BrowserRouter>
   );
