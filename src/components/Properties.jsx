@@ -4,7 +4,7 @@ import properties from '../utils/data';
 
 const Properties = () => {
   return (
-    <div style={{ padding: '20px', backgroundColor: '#fff' }}>
+    <div style={{ padding: '20px', backgroundColor: '#000' }}>
       <div
         style={{
           position: 'relative',
@@ -27,7 +27,7 @@ const Properties = () => {
             variant="h4"
             sx={{
               position: 'absolute',
-              top: '30%',
+              top: '25%',
               width: '100%',
               textAlign: 'center',
               color: '#0B2F9F',
