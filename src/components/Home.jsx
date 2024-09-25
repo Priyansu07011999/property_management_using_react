@@ -1,8 +1,11 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import houseImage from '../assets/house.jpg'; 
 import { Box, Typography, Button } from '@mui/material';
 
 const Home = () => {
+  const navigate = useNavigate();
+
   return (
     <Box
       sx={{
@@ -65,6 +68,7 @@ const Home = () => {
               backgroundColor: '#EE66A6', 
             },
           }}
+          onClick={() => navigate('/properties')} // Navigate to properties
         >
           Explore
         </Button>
