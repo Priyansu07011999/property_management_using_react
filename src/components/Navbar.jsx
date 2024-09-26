@@ -79,6 +79,12 @@ const Navbar = () => {
         >
           Contact
         </Link>
+        <Link
+          to="/cart"
+          style={{ color: '#fff', textDecoration: 'none', fontSize: '1.5rem' }}
+        >
+          Cart
+        </Link>
       </Stack>
 
       <IconButton

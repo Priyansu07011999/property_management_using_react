@@ -1,22 +1,26 @@
 import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { Box } from '@mui/material';
-import { Navbar, Home, Properties, Team, Contact } from './components';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { CartProvider } from './contexts/cartContext';
+import Navbar from './components/Navbar';
+import {Home, Team, Contact, Cart, Properties, Checkout } from './components';
 
-function App() {
+
+const App = () => {
   return (
-    <BrowserRouter>
-      <Box sx={{ backgroundColor: '#000' }}>
+    <CartProvider>
+      <Router>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/properties" element={<Properties />} />
+          <Route path="/cart" element={<Cart />} />
           <Route path="/team" element={<Team />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path='/checkout' element={<Checkout/>}/>
         </Routes>
-      </Box>
-    </BrowserRouter>
+      </Router>
+    </CartProvider>
   );
-}
+};
 
 export default App;

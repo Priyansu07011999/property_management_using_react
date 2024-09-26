@@ -25,18 +25,18 @@ const properties = [
         id: 1,
         title: "Luxurious Villa in Namsara Hills",
         bedrooms: 5,
-        location: "Beverly Hills, India",
+        location: "Odisha, India",
         img: villa1,
-        amount: "₹4,500,000",
+        amount: 4500000000, // 45 Cr
         description: "A stunning villa with panoramic views, offering 5 bedrooms, a pool, and modern amenities."
     },
     {
         id: 2,
         title: "Modern Apartment in Mumbai",
         bedrooms: 2,
-        location: "Mumbai, India",
+        location: "Maharashtra, India",
         img: villa2,
-        amount: "₹1,200,000",
+        amount: 1200000000, // 12 Cr
         description: "This sleek apartment features 2 bedrooms, floor-to-ceiling windows, and is located in the vibrant area of Mumbai."
     },
     {
@@ -45,7 +45,7 @@ const properties = [
         bedrooms: 3,
         location: "Himachal Pradesh, India",
         img: villa3,
-        amount: "₹650,000",
+        amount: 650000000, // 6.5 Cr
         description: "Escape to nature in this quaint 3-bedroom cottage with a beautiful garden and rustic charm."
     },
     {
@@ -54,7 +54,7 @@ const properties = [
         bedrooms: 3,
         location: "Goa, India",
         img: villa4,
-        amount: "₹2,300,000",
+        amount: 2500000000, // 25 Cr
         description: "A luxurious 3-bedroom condo offering breathtaking ocean views, direct beach access, and modern amenities."
     },
     {
@@ -63,7 +63,7 @@ const properties = [
         bedrooms: 4,
         location: "Delhi, India",
         img: villa5,
-        amount: "₹9,800,000",
+        amount: 980000000, // 9.8 Cr
         description: "An opulent penthouse with 4 bedrooms, a private pool, and a skyline view of Delhi, perfect for those who seek the best."
     },
     {
@@ -72,7 +72,7 @@ const properties = [
         bedrooms: 4,
         location: "Odisha, India",
         img: villa6,
-        amount: "₹450,000",
+        amount: 450000000, // 4.5 Cr
         description: "A spacious 4-bedroom home in a family-friendly neighborhood, featuring a large backyard and modern interiors."
     },
     {
@@ -81,16 +81,16 @@ const properties = [
         bedrooms: 3,
         location: "Uttarakhand, India",
         img: villa7,
-        amount: "₹850,000",
+        amount: 850000000, // 8.5 Cr
         description: "Nestled in the mountains, this 3-bedroom retreat is perfect for nature lovers, offering stunning views and cozy interiors."
     },
     {
         id: 8,
         title: "Downtown Loft in Bengaluru",
         bedrooms: 2,
-        location: "Bengaluru, India",
+        location: "Karnataka, India",
         img: villa8,
-        amount: "₹1,750,000",
+        amount: 1750000000, // 17.5 Cr
         description: "A modern loft with industrial design, offering 2 bedrooms and located in the heart of downtown Bengaluru."
     },
     {
@@ -99,7 +99,7 @@ const properties = [
         bedrooms: 3,
         location: "Jaipur, India",
         img: villa9,
-        amount: "₹2,600,000",
+        amount: 2600000000, // 26 Cr
         description: "A stylish 3-bedroom townhouse located in a prestigious area of Jaipur, with easy access to the city's top attractions."
     },
     {
@@ -108,7 +108,7 @@ const properties = [
         bedrooms: 6,
         location: "Kolkata, India",
         img: villa10,
-        amount: "₹7,000,000",
+        amount: 7000000000, // 70 Cr
         description: "A grand historical mansion with 6 bedrooms, featuring classic architecture and located in the heart of Kolkata."
     },
     {
@@ -117,16 +117,16 @@ const properties = [
         bedrooms: 4,
         location: "Shimla, India",
         img: villa11,
-        amount: "₹5,200,000",
+        amount: 5200000000, // 52 Cr
         description: "This luxury chalet offers 4 bedrooms, a private spa, and incredible views of the mountains. Perfect for winter getaways."
     },
     {
         id: 12,
         title: "Eco-Friendly Home in Pune",
         bedrooms: 3,
-        location: "Pune, India",
+        location: "Maharashtra, India",
         img: villa12,
-        amount: "₹950,000",
+        amount: 950000000, // 9.5 Cr
         description: "An eco-friendly 3-bedroom home with solar panels, energy-efficient features, and a beautifully landscaped garden."
     },
     {
@@ -135,7 +135,7 @@ const properties = [
         bedrooms: 7,
         location: "Maharashtra, India",
         img: villa13,
-        amount: "₹12,000,000",
+        amount: 1000000000, // 10 Cr
         description: "An expansive cliffside mansion with panoramic views, offering 7 bedrooms, a private beach, and a spacious outdoor area."
     },
     {
@@ -144,25 +144,25 @@ const properties = [
         bedrooms: 1,
         location: "Noida, India",
         img: villa14,
-        amount: "₹90,000,000",
+        amount: 900000000, // 9 Cr
         description: "A modern, compact studio apartment in Noida, offering high-end amenities and excellent city views."
     },
     {
         id: 15,
         title: "Palatial Estate near Mumbai",
         bedrooms: 8,
-        location: "Near Mumbai, India",
+        location: "Maharashtra, India",
         img: villa15,
-        amount: "₹6,500,000",
+        amount: 6500000000, // 65 Cr
         description: "A magnificent 8-bedroom estate with lush gardens, a pool, and extensive living space, located on the outskirts of Mumbai."
     },
     {
         id: 16,
         title: "Minimalist Home in Chennai",
         bedrooms: 4,
-        location: "Chennai, India",
+        location: "Tamilnadu, India",
         img: villa16,
-        amount: "₹1,800,000",
+        amount: 1800000000, // 18 Cr
         description: "A modern minimalist home with 4 bedrooms, open floor plans, and a focus on clean lines and simplicity in design."
     },
     {
@@ -171,7 +171,7 @@ const properties = [
         bedrooms: 5,
         location: "Madhya Pradesh, India",
         img: villa17,
-        amount: "₹2,900,000",
+        amount: 2900000000, // 29 Cr
         description: "This 5-bedroom ranch offers vast open spaces, stunning views, and plenty of privacy for those looking to escape city life."
     },
     {
@@ -180,7 +180,7 @@ const properties = [
         bedrooms: 4,
         location: "Kerala, India",
         img: villa18,
-        amount: "₹3,100,000",
+        amount: 3100000000, // 31 Cr
         description: "A tropical paradise, this 4-bedroom villa features lush gardens, an infinity pool, and is located close to Kerala’s famous beaches."
     },
     {
@@ -189,25 +189,25 @@ const properties = [
         bedrooms: 5,
         location: "Goa, India",
         img: villa19,
-        amount: "₹3,700,000",
+        amount: 3700000000, // 37 Cr
         description: "This beautiful villa, located in Goa, offers 5 bedrooms, a pool, and stunning views of the ocean."
     },
     {
         id: 20,
         title: "Skyscraper Apartment in Hyderabad",
         bedrooms: 3,
-        location: "Hyderabad, India",
+        location: "Telegana, India",
         img: villa20,
-        amount: "₹6,500,000",
+        amount: 6500000000, // 65 Cr
         description: "A luxurious high-rise apartment with 3 bedrooms, located in a prestigious building offering panoramic city views."
     },
     {
         id: 21,
         title: "Imaginarto Apartment in Mumbai",
         bedrooms: 3,
-        location: "Mumbai, India",
+        location: "Maharashtra, India",
         img: villa21,
-        amount: "₹6,500,000",
+        amount: 6500000000, // 65 Cr
         description: "A luxurious high-rise apartment with 3 bedrooms, located in a prestigious building offering panoramic city views."
     }
 ];
