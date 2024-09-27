@@ -132,6 +132,13 @@ const Navbar = () => {
           >
             <ListItemText primary="Contact" />
           </ListItem>
+          <ListItem
+            button
+            component={Link}
+            to="/cart"
+          >
+            <ListItemText primary="Cart" />
+          </ListItem>
         </List>
       </Drawer>
     </Stack>
